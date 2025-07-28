@@ -1,0 +1,8 @@
+# --- core (needed to run reverse‑sequence.py) ---
+openai>=1.3          # modern OpenAI Python SDK (renamed from “openai‑python”)
+
+# --- optional conveniences ---
+python‑dotenv>=1.0    # only if you want to keep OPENAI_API_KEY in a .env file
+jupyterlab           # if you’ll open notebooks interactively
+nbconvert            # headless notebook execution in the setup script
+ipykernel            # lets the notebooks run their own kernel
